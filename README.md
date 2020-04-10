@@ -1,2 +1,2 @@
-# BazelDownstreamLeaf
-A test Bazel workspace that is a downstream dep of another GitHub hosted Bazel workspace.
+# BazelUpstream
+A test Bazel workspace that has a downstream dep on another GitHub hosted Bazel workspace.
