@@ -1,5 +1,5 @@
 
 
-def load_bazel_downstream_leaf_repos():
+def load_bazel_recursive_bottom_repos():
    # nothing to load
    noop = ""

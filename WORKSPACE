@@ -1,4 +1,4 @@
-workspace(name = "BazelDownstreamLeaf")
+workspace(name = "BazelRecursiveBottom")
 
-load("//:repositories.bzl", "load_bazel_downstream_leaf_repos")
-load_bazel_downstream_leaf_repos()
+load("//:repositories.bzl", "load_bazel_recursive_bottom_repos")
+load_bazel_recursive_bottom_repos()

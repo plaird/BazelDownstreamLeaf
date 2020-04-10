@@ -1,8 +1,8 @@
-load("@BazelDownstreamLeaf//:downstreamleaf.bzl", "downstreamleaf_helloworld")
+load("@BazelRecursiveBottom//:recursive_bottom.bzl", "recursive_bottom_helloworld")
 
 exports_files([
-    "downstream_leaf_rule.sh",
+    "recursive_bottom_rule.sh",
 ])
-downstreamleaf_helloworld(
-    name = "downstream_leaf_instance",
+recursive_bottom_helloworld(
+    name = "recursive_bottom_instance",
 )
